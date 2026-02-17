@@ -2,6 +2,7 @@ import './App.css'
 import TitleUpdater from './TitleUpdater'
 import Timer from './Timer'
 import WindowSize from './WindowSize'
+import UserList from './UserList'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
       <TitleUpdater/>
       <Timer/>
       <WindowSize/>
+      <UserList/>
 
     </div>
   )
