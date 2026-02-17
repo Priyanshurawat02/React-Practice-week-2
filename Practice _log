@@ -1,0 +1,30 @@
+## Week 2 - February 17, 2026
+
+### What I Learned
+- useEffect hook (when and why it runs)
+- Dependency arrays ([], [value], none)
+- Cleanup functions (clearInterval, removeEventListener)
+- API fetching with fetch()
+- Promise chaining (.then().then().catch())
+- Loading and error states
+- Conditional rendering for async data
+
+### Components Built
+- TitleUpdater (document.title with useEffect)
+- Timer (setInterval with cleanup)
+- WindowSize (addEventListener with cleanup)
+- UserList (real API fetch with loading/error)
+
+### Key Concepts Understood
+- Why .then() is used twice in fetch
+- [] = run once, [val] = run on change
+- Always clean up listeners and intervals
+- fetch gives envelope first, .json() opens it
+
+### Next Goals
+- Challenge 30: Post Viewer (multiple fetches)
+- Challenge 31: Searchable User Directory
+- useRef hook
+
+**Time Spent**: ~3 hours
+**Status**: 🔄 Week 2 In Progress
