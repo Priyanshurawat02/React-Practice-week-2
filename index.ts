@@ -41,3 +41,36 @@ console.log(products
     
 );
 
+interface User {
+    id: number;
+    name: string;
+    email: string;
+    phone ?: string; 
+}
+
+const user1: User ={
+    id: 2,
+    name: "Ram",
+    email: "Ram@123",
+} 
+
+const user2: User = {
+    id:3,
+    name: "Mohan",
+    email: "Mohan@456",
+    phone: "Iphone"
+} 
+
+const users: User[] =[user1, user2];
+
+
+function printUserNames(users: User[]):void {
+    users.forEach((user) =>{
+        console.log(user.name);
+    });
+}
+printUserNames(users);
+
+
+
+
