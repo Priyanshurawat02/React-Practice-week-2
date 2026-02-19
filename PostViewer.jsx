@@ -49,7 +49,22 @@ export default function PostViewer() {
 
             </div>
             <div>
+             {!selectedPost && <p>Select a post to view details</p>}
 
+             {selectedPost && (
+                <> <h2>{selectedPost.title}</h2>
+                <p>{selectedPost.body}</p>
+
+                {loadingComments ? <p>"Loading comments..."</p> : (
+                 comments.map((comment) =>(
+                <div key={comment.id}>
+                    <strong>{comment.name}</strong>
+                    {comment.body}
+                </div>
+                 ))
+              )}
+             </>  
+             )}    
             </div>
         </div>
     )
