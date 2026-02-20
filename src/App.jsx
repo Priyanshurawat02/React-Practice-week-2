@@ -3,7 +3,8 @@ import TitleUpdater from './TitleUpdater'
 import Timer from './Timer'
 import WindowSize from './WindowSize'
 import UserList from './UserList'
-import PostViewer from '../PostViewer'
+import Counter from './Counter'
+import LoginForm from './LoginForm'
 
 function App() {
  
@@ -13,10 +14,10 @@ function App() {
       <Timer/>
       <WindowSize/>
       <UserList/>
-      <PostViewer/>
-
+      <Counter/>
+      <LoginForm/>
     </div>
   )
 }
 
-export default App
+export default App;

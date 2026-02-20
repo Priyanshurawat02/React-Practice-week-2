@@ -4,8 +4,6 @@ export default function TitleUpdater() {
 
     const[title, setTitle] =useState("");
    
-
-
     useEffect(() => {
         document.title =title; 
     }, [title]);
