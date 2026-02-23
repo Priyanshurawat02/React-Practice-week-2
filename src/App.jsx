@@ -5,7 +5,8 @@ import WindowSize from './WindowSize'
 import UserList from './UserList'
 import Counter from './Counter'
 import LoginForm from './LoginForm';
-import LoginForm1 from './LoginForm1'
+
+import SmartLoginForm from './SmartLoginForm'
 
 function App() {
  
@@ -17,7 +18,7 @@ function App() {
       <UserList/>
       <Counter/>
       <LoginForm/>
-      <LoginForm1/>
+      <SmartLoginForm/>
     </div>
   )
 }
