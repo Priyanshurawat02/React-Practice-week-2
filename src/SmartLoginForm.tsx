@@ -72,7 +72,7 @@ export default function SmartLoginForm():JSX.Element {
             onChange={(e) =>{
                 const value =e.target.value;
                 setPassword(value);
-                if(value){
+                if(value.length >=6){
                     setError(prev => ({ ...prev,password:undefined}));
                 }
             }}/>
